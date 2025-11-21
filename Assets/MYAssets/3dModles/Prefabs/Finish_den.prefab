@@ -169,10 +169,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 327064008815436722, guid: d8f74719997ca4645b8fe26a53cd1019, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 16cdb4c750719774b8863cfc96b304b3, type: 2}
     - target: {fileID: 919132149155446097, guid: d8f74719997ca4645b8fe26a53cd1019, type: 3}
       propertyPath: m_Name
       value: Finish_den
       objectReference: {fileID: 0}
+    - target: {fileID: 2355982399387309400, guid: d8f74719997ca4645b8fe26a53cd1019, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 16cdb4c750719774b8863cfc96b304b3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

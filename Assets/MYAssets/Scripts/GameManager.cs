@@ -37,6 +37,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        QualitySettings.vSyncCount = 0;      // Disable vsync
+        Application.targetFrameRate = 60;    // Cap FPS
+
+
+
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = bgMusicClip;
         audioSource.Play();
